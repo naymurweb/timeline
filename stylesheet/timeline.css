@@ -30,19 +30,20 @@ body {
   border: 2px solid #20b0dc;
   position: relative;
 }
-#display-border-none {
-  border: 0px solid #badc20;
-  position: relative;
-}
+
 .display-boll {
   background-color: #20b0dc;
   padding: 8px;
   border-radius: 100%;
   position: absolute;
   top: -4%;
-  right: -9px;
+  right: -8px;
 }
 
+#border-none {
+  border: 2px solid #f1f6fa;
+  position: relative;
+}
 .content {
   padding-bottom: 50px;
 }
