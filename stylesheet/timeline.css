@@ -1,0 +1,60 @@
+/* base css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1140px;
+  margin: 50px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* main css */
+
+.hero-area {
+  background-color: #f1f6fa;
+  border-radius: 10px;
+  padding: 40px;
+}
+.main {
+  display: flex;
+  gap: 25px;
+}
+
+.display-border {
+  border: 2px solid #20b0dc;
+  position: relative;
+}
+#display-border-none {
+  border: 0px solid #badc20;
+  position: relative;
+}
+.display-boll {
+  background-color: #20b0dc;
+  padding: 8px;
+  border-radius: 100%;
+  position: absolute;
+  top: -4%;
+  right: -9px;
+}
+
+.content {
+  padding-bottom: 50px;
+}
+
+.content h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #758283;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #242b2e;
+}
